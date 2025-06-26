@@ -19,7 +19,7 @@ class AutoLoginController extends Controller
         $response = Http::withHeaders([
             'Authorization' => 'Bearer ' . $token,
             'Accept' => 'application/json',
-        ])->get('http://localhost:8000/api/user');
+        ])->get('https://ecom-app.deshicreative.com/api/user');
 
         if ($response->failed()) {
             return redirect()->route('login')->withErrors('Invalid token.');

@@ -4,6 +4,24 @@ This is the Laravel-based Foodpanda Application for Steadfast Courier Ltd's Deve
 
 ---
 
+## Live Demo Link
+
+- 🌐 URL: https://food-app.deshicreative.com/
+
+
+---
+
+
+## 🔐 Admin Panel Access (Demo)
+
+- 📧 Email: gmzesan7767@gmail.com
+- 🔑 Password: 12345678aA
+
+
+---
+
+
+
 ## 🚀 Features
 
 - Laravel 12 (PHP 8.2+)

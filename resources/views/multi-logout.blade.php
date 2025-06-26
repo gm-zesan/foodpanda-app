@@ -6,7 +6,7 @@
         window.onload = function () {
             const iframe = document.createElement('iframe');
             iframe.style.display = 'none';
-            iframe.src = 'http://127.0.0.1:8000/logout-sync';
+            iframe.src = 'https://ecom-app.deshicreative.com/logout-sync';
             document.body.appendChild(iframe);
 
             setTimeout(() => {

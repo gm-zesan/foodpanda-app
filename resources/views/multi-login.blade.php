@@ -11,7 +11,7 @@
 
     <script>
         function openTabs() {
-            const foodpandaUrl = "http://127.0.0.1:8000/auto-login?token={{ $token }}";
+            const foodpandaUrl = "https://ecom-app.deshicreative.com/auto-login?token={{ $token }}";
             window.open(foodpandaUrl, '_blank');
             document.getElementById('autoRedirect').submit();
         }
